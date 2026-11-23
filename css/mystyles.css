@@ -43,3 +43,8 @@ css 檔案) */
 /* background-image: url('../assets/img/white-wall-3-2.
 png'); */
 }
+.img {
+  width: 60%;        /* 佔父容器寬度的 60%，可改成 400px 等固定像素 */
+  max-width: 500px;  /* 限制最大寬度，避免在寬螢幕上太大 */
+  height: auto;      /* 高度自動等比例縮放，圖片不會被壓扁或拉長 */
+}
